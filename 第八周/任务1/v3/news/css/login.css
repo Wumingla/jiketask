@@ -1,0 +1,45 @@
+body {
+    background: #eee;
+    min-width: 1000px;
+}
+
+.login-box {
+    width: 360px;
+    height: 300px;
+    padding: 20px 30px;
+    margin: 100px auto 0;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 2px #C8C8C8;
+}
+
+.login-box h2 {
+    font-weight: bolder;
+}
+
+.login-box input[type="text"] {
+    font-size: 1.6rem;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px 9px;
+}
+
+.login-box input[type="password"] {
+    margin-top: 20px;
+    font-size: 1.6rem;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px 9px;
+}
+
+.login-box label[class="checkbox"] {
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.login-box button[type="button"] {
+    width: 80px;
+    height: 40px;
+    font-size: 2rem;
+    font-weight: bolder;
+}

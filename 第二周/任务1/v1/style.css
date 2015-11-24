@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+}
+
+
+/*用display:flex 定位*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#row2 {
+    display: flex;
+    width: 300px;
+}
+
+
+/*定义动画*/
+
+article:hover {
+    -webkit-animation: animations 5s linear infinite;
+    animation: animations 5s linear infinite;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+@-webkit-keyframes animations {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animations {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
