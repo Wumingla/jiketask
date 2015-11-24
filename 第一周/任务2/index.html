@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="draw()">
+	 <!--头-->
+    <header>
+        <p>课 程 表</p>
+    </header>
+    <hr/>
+    <!--表格-->
+    <main>
+        <div class="div"></div>
+        <div id="tableContent">
+            <table id="table" border="1">
+                <thead>
+                    <tr id="tr">
+                        <th colspan="2">
+                            <canvas height="50px" width="141px" id="canvas"></canvas>
+                        </th>
+                        <th>星期一</th>
+                        <th>星期二</th>
+                        <th>星期三</th>
+                        <th>星期四</th>
+                        <th>星期五</th>
+                        <th>星期六</th>
+                        <th>星期日</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="4">上午</td>
+                        <td>8:00-8:45</td>
+                        <td>语文</td>
+                        <td>数学</td>
+                        <td>英语</td>
+                        <td>计算机</td>
+                        <td>数学</td>
+                        <td>化学</td>
+                        <td>生物</td>
+                    </tr>
+                    <tr>
+                        <td>9:00-9:45</td>
+                        <td>数学</td>
+                        <td>计算机</td>
+                        <td>生物</td>
+                        <td>物理</td>
+                        <td>英语</td>
+                        <td>语文</td>
+                        <td>体育</td>
+                    </tr>
+                    <tr>
+                        <td>10:00-10:45</td>
+                        <td>数学</td>
+                        <td>英语</td>
+                        <td>语文</td>
+                        <td>化学</td>
+                        <td>数学</td>
+                        <td>英语</td>
+                        <td>计算机</td>
+                    </tr>
+                    <tr>
+                        <td>11:00-11:45</td>
+                        <td>生物</td>
+                        <td>语文</td>
+                        <td>物理</td>
+                        <td>体育</td>
+                        <td>数学</td>
+                        <td>计算机</td>
+                        <td>英语</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">下午</td>
+                        <td>15:00-15:45</td>
+                        <td>数学</td>
+                        <td>生物</td>
+                        <td>语文</td>
+                        <td>英语</td>
+                        <td>数学</td>
+                        <td>化学</td>
+                        <td>计算机</td>
+                    </tr>
+                    <tr>
+                        <td>16:00-16:45</td>
+                        <td>数学</td>
+                        <td>计算机</td>
+                        <td>英语</td>
+                        <td>语文</td>
+                        <td>化学</td>
+                        <td>语文</td>
+                        <td>数学</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <!--尾部时间-->
+    <footer>
+        <p id="footer">当前时间:</p>
+    </footer>
+</body>
+
+</html>

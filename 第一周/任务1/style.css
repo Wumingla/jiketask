@@ -1,0 +1,74 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	min-width: 780px;
+}
+main{
+	flex:1;
+	display: flex;
+	flex-direction: column;
+	min-height: 400px;
+	margin-top: 80px;
+}
+footer{
+	height: 100px;
+}
+#bdLogo{
+	display: flex;
+	justify-content: center;
+}
+#bdLogo img{
+	width: 270px;
+	height: 129px;
+}
+#bdcontent{
+	margin-top: 30px;
+}
+#bdcontent nav{
+	display: flex;
+	justify-content: center;
+	margin-right: 110px;
+}
+#bdcontent nav a{
+	font-size: 14px;
+	margin-left: 10px;
+	color: #00c;
+}
+#bdcontent nav span{
+	font-size: 13px;
+	margin-left: 10px;
+}
+#bdcontent form{
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+#bdInput{
+	width: 450px;
+	height: 30px;
+}
+#bdSub{
+	width: 100px;
+}
+footer p, small{
+	display: flex;
+	justify-content: center;
+}
+p a{
+	margin-left: 20px;
+	font-size: 13px;
+	color: #00c;
+}
+small{
+	margin-top: 10px;
+	color: #666;
+}
+small a{
+	color: #666;
+	margin-left: 3px;
+}

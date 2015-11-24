@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*隐藏手机端的节点*/
+
+#tHeader {
+    position: absolute;
+    visibility: hidden;
+}
+
+article nav,
+.plus {
+    position: absolute;
+    visibility: hidden;
+}
+
+.tbottom {
+    position: absolute;
+    top: -900px;
+}
+
+
+/*整体框架*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    min-width: 829px;
+}
+
+header {
+    align-self: flex-end;
+    min-height: 50px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 350px;
+    flex: 1;
+}
+
+footer {
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: arial;
+}
+
+
+/*header内容*/
+
+header nav {
+    margin: 20px 8px;
+    display: flex;
+}
+
+header>nav a:hover{
+    color: #00c;
+}
+
+nav a {
+    margin-top: 5px;
+    margin-left: 20px;
+    font: 13px arial;
+    color: #333;
+}
+
+.bdnav {
+    font-weight: bold;
+}
+
+#more {
+    background-color: #38f;
+    margin: 0 5px 0 15px;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#setUpnav {
+    visibility: hidden;
+    position: absolute;
+    width: 65px;
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0 0 1px 0px;
+}
+
+#setUpnav a {
+    margin: 5px;
+    text-decoration: none;
+}
+
+#setUp-gloup {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#rightnav {
+    width: 85px;
+    min-height: 100vh;
+    background-color: #F9F9F9;
+    position: absolute;
+    z-index: 2;
+    border-left: 1px solid #e7e7e7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+    margin-top: -20px;
+    margin-left: -78px;
+    overflow: auto;
+    visibility: hidden;
+}
+
+#more1 {
+    margin-top: 22px;
+}
+
+#rightnav a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 10px 8px 0px;
+    border-top: 1px solid #f0f0f0;
+    position: relative;
+}
+
+#rightnav a:hover {
+    text-decoration: underline;
+}
+
+#rightnav nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+
+/*article部分*/
+
+#logo {
+    margin-top: 10px;
+    width: 270px;
+    height: 129px;
+    background-image: url("./img/bd_logo.png");
+    background-size: 100% 100%;
+}
+
+#Search {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#Search input[type="text"] {
+    width: 550px;
+    height: 30px;
+}
+
+#Search input[type="button"] {
+    width: 100px;
+    background-color: #3385ff;
+    border: 1px solid #2d78f4;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+/*footer部分*/
+
+footer p {
+    font-size: 12px;
+}
+
+footer p a {
+    margin-left: 20px;
+    color: rgb(0, 0, 204);
+}
+
+footer small {
+    margin-top: 15px;
+    color: #666;
+    display: flex;
+}
+
+footer small a {
+    color: #666;
+}
+
+.icon {
+    width: 14px;
+    height: 17px;
+    background: url("./img/icon.png") no-repeat;
+    background-position: -600px -96px;
+    position: relative;
+    margin-top: -2px;
+}
+
+span {
+    width: 36px;
+    height: 36px;
+    background: url("./img/1.png") no-repeat;
+    display: block;
+    cursor: pointer;
+    margin-bottom: 5px
+}
+
+.bdzd {
+    background-position: -36px 0;
+}
+
+.bdyy {
+    width: 40px;
+    background-position: -72px 0;
+}
+
+.bdtp {
+    background-position: -112px 0;
+}
+
+.bdwk {
+    background-position: -148px 0;
+}
+
+.bdfyb {
+    width: 40px;
+    background-position: -180px 0;
+}
+
+.bdtg {
+    background-position: -220px 0;
+}
+
+.allProduct {
+    text-decoration: underline!important;
+}

@@ -1,0 +1,6 @@
+bd.sql  数据库
+index.html   新闻首页
+login.html   登录页
+backstage.html    后台页
+检测登录状态用的是session，页面和服务端一直保持通讯获取session数据。这样做是因为保证退出登陆时所有的后台页面都退出登录。 
+添加图片可以用按钮选择也可以拖拽。
